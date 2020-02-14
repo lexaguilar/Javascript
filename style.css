@@ -1,0 +1,57 @@
+#tablaProductos{
+    width: 100%;
+    display: inline-flex;
+}
+.panel-productos{
+    width: 33.3%;
+    padding: 10px;
+    border: solid;
+    margin: 5px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.container{
+    margin: auto;
+    max-width: 1200px;
+    padding: 50px;
+}
+
+.button{
+    background-color: #008CBA;
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+    border: 2px solid #4CAF50; /* Green */
+}
+
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.button-danger{
+    border-radius: 12px;
+    border: 2px solid  rgb(186, 0, 87);/* Green */
+}
+
+.button-danger:hover {
+    background-color: rgb(186, 0, 87); /* Green */
+    color: white;
+}
+
+.item-container{
+    width: 33% ;
+    padding-top: 25px;
+}
+
+.item-container div{
+    background-color: beige;
+    padding: 5px;
+}
+
+.item-container div label:last-child{
+    font-weight: 800;
+   float: right;
+}
